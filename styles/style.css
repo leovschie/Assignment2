@@ -68,7 +68,7 @@ a:link {
 }
 
 .hero {
-    background: url(https://images.pexels.com/photos/827058/pexels-photo-827058.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background: url(https://images.pexels.com/photos/827058/pexels-photo-827058.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
     no-repeat center center;
     height: 60vh;
     display: flex;
@@ -94,10 +94,14 @@ ul.navul {
     display: flex;
     flex-flow: column-wrap;
     text-align: center;
+    text-align: -webkit-center;
+    justify-content: center;
 }
 
 li.navlink {
     display: inline-block;
+    align-self: center;
+    justify-self: center;
     margin-left: 1.875rem;
     margin-right: 1.875rem;
     color: #4B5B40;
@@ -184,7 +188,7 @@ img {
 }
 
 div {
-        float = none;
+    float: none;
     }
 
 .hero {
@@ -204,3 +208,4 @@ div {
 .maintextcolumnleft {
         width: 100%; 
     }
+}
