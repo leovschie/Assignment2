@@ -1,7 +1,6 @@
 
 * {
     box-sizing: border-box;
- 
 }
 
 body {
@@ -27,9 +26,9 @@ b {
 
 a:link {
     color: #4B5B40;
-    text-decoration: none;
-     
+    text-decoration: none;   
  }
+
  a:visited {
     color: #4B5B40; 
  }
@@ -44,15 +43,13 @@ a:link {
  }
  
  a:focus {
-  color: #4B5B40;
+    color: #4B5B40;
  }
  
  a:checked {
      color: #4B5B40;
  }
  
- 
-
 .nav {
     display: flex;
     flex-flow: column wrap;
@@ -93,14 +90,13 @@ a:link {
    
 }
 
-
-ul.navul{
+ul.navul {
     display: flex;
     flex-flow: column-wrap;
     text-align: center;
 }
 
-li.navlink{
+li.navlink {
     display: inline-block;
     margin-left: 1.875rem;
     margin-right: 1.875rem;
@@ -108,9 +104,6 @@ li.navlink{
     font-weight: bold;
     letter-spacing: 0.1875rem;
 }
-
-
-
 
 .maintext {
     display: flex;
@@ -123,21 +116,22 @@ li.navlink{
     width: 100%;
 }
 
-
-
-
 .maintextcolumnleft {
-    width: 30%;
-    
-    
+    width: 30%; 
+}
+
+.maintextcolumnlefthome {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .maintextcolumnright {
+    display: flex;
+    flex flow: column wrap;
     width: 40%;
     margin: 0 auto;
     margin-top: 0.875rem;
-
-    
+    align-items: flex-end;
 }
 
 .clear {
@@ -145,12 +139,9 @@ li.navlink{
     }
 
 .philodendron {
+   
     margin-bottom: 0.625rem;
-    bottom: 0.25rem;
-}
-
-.plantlist{
-    
+    bottom: 4rem;
 }
 
 .footer {
@@ -167,8 +158,6 @@ li.navlink{
     font-size: 1rem;
     text-transform: uppercase;
 }
-
-
 
 @media (max-width: 700px) {
 
@@ -207,22 +196,11 @@ div {
     font-size: 2em;
 }
 
-
-
-  
-
 .maintext {
-        position: relative;
-        margin-left: 0.0625rem;
+    position: relative;
+    margin-left: 0.0625rem;
     }
 
-    .maintextcolumnleft{
+.maintextcolumnleft {
         width: 100%; 
     }
-
-footer {
-        width: 100%;
-    }
-    
-
-}
